@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import '../static/css/index.css';
+import WordCloud from './wordcloud';
 
 function Home() {
   
@@ -23,6 +24,7 @@ function Home() {
                     </fieldset>
                   </form>
                 </main>
+		<WordCloud />
               </div>
             </div>) ;
 }
